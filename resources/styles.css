@@ -1,0 +1,25 @@
+.background {
+  viewport-fill: grey;
+}
+
+.main {
+  font-size: 60;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: black;
+}
+
+.mid {
+  font-size: 45;
+  text-length: 16;
+  text-anchor: start;
+  fill: black;
+}
+
+.min {
+  font-size: 30;
+  text-length: 32;
+  text-anchor: start;
+  fill: black;
+}

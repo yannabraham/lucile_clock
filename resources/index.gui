@@ -1,0 +1,16 @@
+<svg class="background">
+  <image href="img/351217-020319_scaled.jpg" />
+  <svg id="base" x="5%" y="5%" width="90%" height="25%">
+    <text id="myClock" class="main" x="55%" y="80%"/>
+    <text id="myDate" class="min" x="65%" y="45%"/>
+    <text id="myBatteryLabel" class="min" x="65%" y="90%" />
+  </svg>
+  <svg id="steps" x="5%" y="30%" width="70%" height="15%">
+    <image href="img/stat_steps_solid_24px.png" x="0" y="25%" width="24" height="24" fill="black"/>
+    <text id="stepsLabel" class="mid" x="15%" y="90%"/>
+  </svg>
+  <svg id="HR" x="5%" y="45%" width="70%" height="15%">
+    <image href="img/stat_hr_solid_24px.png" x="0" y="25%" width="24" height="24" fill="black"/>
+    <text id="hrLabel" class="mid" x="15%" y="90%"/>
+  </svg>
+</svg>
