@@ -23,8 +23,7 @@ let body = new BodyPresenceSensor();
 
 // define functions
 function updateClock() {
-  if(display.on) {
-    let today = new Date();
+  let today = new Date();
     let hours = today.getHours();
     if (preferences.clockDisplay === "12h") {
       // 12h format
@@ -44,7 +43,6 @@ function updateClock() {
     day = util.zeroPad(day);
     month = util.zeroPad(month+1);
     myDate.text= `${day}/${month}`;
-  }
 }
 
 function updateSteps() {
