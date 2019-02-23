@@ -87,7 +87,7 @@ hrm.onreading = function() {
 }
 
 // Update the clock every second every tick with the current time
-clock.granularity = "seconds";
+clock.granularity = "minutes";
 clock.ontick = () => updateClock();
 
 // Update the steps every 5 seconds
