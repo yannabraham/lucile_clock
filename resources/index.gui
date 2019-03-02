@@ -10,7 +10,7 @@
     <text id="stepsLabel" class="mid" x="15%" y="90%"/>
   </svg>
   <svg id="HR" x="5%" y="45%" width="70%" height="15%">
-    <image href="img/stat_hr_solid_24px.png" x="0" y="25%" width="24" height="24" fill="black"/>
+    <image id="hrIcon" href="img/stat_hr_solid_24px.png" x="0" y="25%" width="24" height="24" fill="black"/>
     <text id="hrLabel" class="mid" x="15%" y="90%"/>
   </svg>
 </svg>

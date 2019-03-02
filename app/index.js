@@ -12,6 +12,7 @@ import { display } from "display";
 const myClock = document.getElementById("myClock");
 const myDate = document.getElementById("myDate");
 const hrLabel = document.getElementById("hrLabel");
+const hrIcon = document.getElementById("hrIcon");
 const stepsHandle = document.getElementById("stepsLabel");
 const myBattery = document.getElementById("myBatteryLabel");
 
@@ -71,9 +72,11 @@ function updateHR() {
     body.start()
     body.onreading = function() {
       if(body.present) {
+        hrIcon.href = "img/stat_hr_solid_24px.png";
         hrm.start();
       } else {
         hrLabel.text = "---";
+        hrIcon.href = "img/stat_hr_open_24px.png";
       }
       body.stop();
     }
